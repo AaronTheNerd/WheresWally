@@ -1,0 +1,9 @@
+data/
+Wally.bmp
+generate_wall_vector/
+conversion/
+Pipfile.lock
+build/
+.vscode/
+main
+dbg
