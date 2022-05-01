@@ -31,7 +31,7 @@ $(TARGET): $(BLD_DIR)/$(TARGET).o $(INC_O)
 	$(CC) $(CFLAGS) $(OPTFLAG) -o $@ $^
 
 $(BLD_DIR)/$(TARGET).o: $(SRC_DIR)/$(TARGET).cpp
-	$(CC) $(CFLAGS) $(OPTFLAG) $(INCFLAG) -D $(IMAGE) -c $< -o $@
+	$(CC) $(CFLAGS) $(OPTFLAG) $(INCFLAG) -c $< -o $@
 
 $(BLD_DIR)/%.o: $(SRC_DIR)/%.cpp $(INC_DIR)/%.h
 	$(CC) $(CFLAGS) $(OPTFLAG) $(INCFLAG) -D $(IMAGE) -c $< -o $@
@@ -43,7 +43,7 @@ $(BLD_DIR)/$(TARGET)_dbg.o: $(SRC_DIR)/$(TARGET).cpp
 	$(CC) $(CFLAGS) $(DBGFLAG) $(INCFLAG) -c $< -o $@
 
 $(BLD_DIR)/%_dbg.o: $(SRC_DIR)/%.cpp $(INC_DIR)/%.h
-	$(CC) $(CFLAGS) $(DBGFLAG) $(INCFLAG) -c $< -o $@
+	$(CC) $(CFLAGS) $(DBGFLAG) $(INCFLAG) -D $(IMAGE) -c $< -o $@
 
 clean:
 	$(RM) $(BLD_DIR)/* $(TARGET) $(DBG_TARGET)
