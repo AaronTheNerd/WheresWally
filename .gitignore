@@ -1,6 +1,6 @@
 data/
 Wally.bmp
-generate_target_vector/
+generate_targets/
 conversion/
 Pipfile.lock
 build/
