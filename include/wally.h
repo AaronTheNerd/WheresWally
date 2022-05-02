@@ -9,7 +9,7 @@
 
 namespace atn {
 
-enum Color { RED, WHITE, BLACK, TAN, ANY };
+enum Color { RED, WHITE, BLACK, TAN, GREY, DARK_RED, ANY };
 
 class Wally {
   public:

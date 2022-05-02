@@ -18,33 +18,33 @@ std::vector<std::vector<Color>> init() {
         {  WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE},
         {  WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE}};
     #endif
-
     #ifdef DINOSAUR
     return std::vector<std::vector<Color>> {
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   WHITE,   WHITE,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
-        {  WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE},
-        {  BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK},
-        {  WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE},
-        {  WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE},
-        {  WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE},
-        {  BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE}};
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE},
+        {  WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY},
+        {  WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY},
+        {  WHITE,   BLACK,   WHITE,   WHITE,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   WHITE,   WHITE,     ANY,   WHITE,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY}};
     #endif
-
     #ifdef MARIO
     return std::vector<std::vector<Color>> {
         {    ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY},
@@ -63,7 +63,6 @@ std::vector<std::vector<Color>> init() {
         {    ANY,     ANY,   BLACK,     RED,     RED,     RED,     RED,     RED,   BLACK,     ANY,     ANY,     ANY},
         {    ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY}};
     #endif
-
     #ifdef STAR
     return std::vector<std::vector<Color>> {
         {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
@@ -83,7 +82,6 @@ std::vector<std::vector<Color>> init() {
         {  BLACK,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK},
         {  BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK}};
     #endif
-
     #ifdef SUS
     return std::vector<std::vector<Color>> {
         {    ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY},
@@ -106,7 +104,6 @@ std::vector<std::vector<Color>> init() {
         {    ANY,     ANY,     ANY,   BLACK, DARK_RED, DARK_RED, DARK_RED,   BLACK,     ANY,   BLACK, DARK_RED, DARK_RED, DARK_RED,   BLACK,     ANY},
         {    ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,     ANY,     ANY}};
     #endif
-
     #ifdef WALLY
     return std::vector<std::vector<Color>> {
         {    ANY,     ANY,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
@@ -136,7 +133,6 @@ std::vector<std::vector<Color>> init() {
         {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,     TAN,     TAN,     TAN,     TAN,     TAN,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
         {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY}};
     #endif
-
     #ifdef LIL_SUS
     return std::vector<std::vector<Color>> {
         {  WHITE,   BLACK,   BLACK,   BLACK},
@@ -144,7 +140,79 @@ std::vector<std::vector<Color>> init() {
         {  BLACK,   BLACK,   BLACK,   BLACK},
         {  WHITE,   BLACK,   WHITE,   BLACK}};
     #endif
-
+    #ifdef SMILE
+    return std::vector<std::vector<Color>> {
+        {    ANY,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY},
+        {    ANY,   WHITE,   BLACK,   WHITE,   WHITE,   BLACK,   WHITE,     ANY},
+        {    ANY,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY},
+        {  WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE},
+        {  WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE},
+        {  WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE},
+        {    ANY,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY}};
+    #endif
+    #ifdef LIL_SUS_RED
+    return std::vector<std::vector<Color>> {
+        {  BLACK,     RED,     RED,     RED,   BLACK},
+        {DARK_RED,     RED,   WHITE,   WHITE,   WHITE},
+        {DARK_RED, DARK_RED,   WHITE,   WHITE,   WHITE},
+        {DARK_RED, DARK_RED,     RED,     RED,   BLACK},
+        {  BLACK, DARK_RED,   BLACK,     RED,   BLACK}};
+    #endif
+    #ifdef ALIEN
+    return std::vector<std::vector<Color>> {
+        {    ANY,     ANY,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,     ANY,     ANY},
+        {    ANY,     ANY,   BLACK,   WHITE,   BLACK,   BLACK,     ANY,   BLACK,   BLACK,   WHITE,   BLACK,     ANY,     ANY},
+        {    ANY,     ANY,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,     ANY,     ANY},
+        {    ANY,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,     ANY},
+        {  BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK},
+        {  BLACK,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   BLACK},
+        {  BLACK,   WHITE,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,   BLACK},
+        {  BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   BLACK},
+        {    ANY,     ANY,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY}};
+    #endif
+    #ifdef DINOSAUR_LITE
+    return std::vector<std::vector<Color>> {
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,     ANY,     ANY,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE},
+        {  WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY},
+        {  WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY},
+        {  WHITE,   BLACK,   WHITE,   WHITE,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,   BLACK,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {  WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,     ANY,     ANY,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   BLACK,   BLACK,   WHITE,   WHITE,   WHITE,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   WHITE,   WHITE,     ANY,   WHITE,   BLACK,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,     ANY,   WHITE,   BLACK,   BLACK,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY},
+        {    ANY,     ANY,     ANY,     ANY,     ANY,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,   WHITE,   WHITE,   WHITE,   WHITE,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY,     ANY}};
+    #endif
+    #ifdef STICK_MAN
+    return std::vector<std::vector<Color>> {
+        {    ANY,     ANY,   WHITE,   WHITE,   WHITE,     ANY,     ANY},
+        {    ANY,   WHITE,   BLACK,   BLACK,   BLACK,   WHITE,     ANY},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {  WHITE,   BLACK,   BLACK,   BLACK,   BLACK,   BLACK,   WHITE},
+        {    ANY,   WHITE,   BLACK,   BLACK,   BLACK,   WHITE,     ANY},
+        {    ANY,     ANY,   WHITE,   BLACK,   WHITE,     ANY,     ANY},
+        {    ANY,   WHITE,   BLACK,   BLACK,   BLACK,   WHITE,     ANY},
+        {  WHITE,   BLACK,   WHITE,   BLACK,   WHITE,   BLACK,   WHITE},
+        {    ANY,   WHITE,   WHITE,   BLACK,   WHITE,   WHITE,     ANY},
+        {    ANY,   WHITE,   BLACK,   WHITE,   BLACK,   WHITE,     ANY},
+        {  WHITE,   BLACK,   WHITE,     ANY,   WHITE,   BLACK,   WHITE},
+        {    ANY,   WHITE,     ANY,     ANY,     ANY,   WHITE,     ANY}};
+    #endif
 }
 
 } // anonymous namespace
