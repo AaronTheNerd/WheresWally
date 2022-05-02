@@ -28,9 +28,11 @@ std::ostream& operator<<(std::ostream& out, std::vector<std::vector<atn::Color>>
         for (size_t x = 0; x < target[y].size(); ++x) {
             switch(target[y][x]) {
                 case atn::BLACK:
+                case atn::GREY:
                     out << "#";
                     break;
                 case atn::RED:
+                case atn::DARK_RED:
                     out << "%";
                     break;
                 case atn::TAN:
